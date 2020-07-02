@@ -10,10 +10,10 @@ public class Main
         int valor= s.nextInt();
 
         int contador= 1;
-        int resultado= 1;
+        double resultado = 1;
 
         while (contador <= valor) {
-            resultado = resultado* contador;
+            resultado = resultado * contador;
             contador = contador + 1;
         }
         System.out.println("El valor factorial de tu número es: " + resultado);
